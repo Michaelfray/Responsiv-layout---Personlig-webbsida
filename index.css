@@ -8,6 +8,7 @@
     border: 1px solid black;
     width: 98vw; /* hela bredden */
     height: 200vh; /* hela en helskärm höjd */
+    font-family: 'Roboto', sans-serif;
 }
 .landingContainer{
     border: 1px solid black;
@@ -29,5 +30,21 @@ background-size: cover;
     font-size: 80px;
     font-family: 'Roboto', sans-serif;
     color: lightgray;
+
+}
+.textcontainer{
+    border:1px solid black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+    gap: 200px;
+
+
+}
+#Paragraftext{
+    width: 30vh;
+    font-size: 25px;
 
 }
