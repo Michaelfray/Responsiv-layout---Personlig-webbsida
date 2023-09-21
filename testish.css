@@ -7,7 +7,7 @@
 
     border: 1px solid black;
     width: 98vw; /* hela bredden */
-    min-height: 200vh; /* hela en helskärm höjd */
+    height: 200vh; /* hela en helskärm höjd */
     font-family: 'Roboto', sans-serif;
 }
 .nav{
@@ -83,28 +83,6 @@ background-size: cover;
 font-size: 30px;
 
 }
-.formcontainer {
- height: 80vh;
- width: 100%;
- display: flex;
- align-items: center;
-   justify-content: center;
-   flex-direction: column;
-}
-.form {
-    display: flex;
-    align-items:center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 15px;
-    
-    
 
-  
-}
-input {
-height: 30px;
-width: 10vw;
-}
 
 
