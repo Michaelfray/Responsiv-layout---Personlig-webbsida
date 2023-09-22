@@ -1,64 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="index.css" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mikes Sida</title>
-  </head>
-  <body>
-    <div class="container">
-        <div class="nav">
-      
-      <a  class="länkar" href="">Om mig</a>
-      <a  class="länkar" href="">Kontakt</a>
-      <a  class="länkar" href=""></a>
-        </div>
 
-      <div class="landingContainer">
-        <h1 id="title">Mikes personliga sida</h1>
-        <img src="Mike.jpg" class="bild" />
-        <ul></ul>
+<head>
+  <link rel="stylesheet" href="index.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mikes Sida</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="nav">
+      <a class="länkar" href="#textcontainer">Om mig</a>
+      <a class="länkar" href="#formcontainer">Kontakt</a>
+      <a class="länkar" href=""></a>
+    </div>
+
+    <section class="landingContainer">
+      <h1 id="title">Mikes personliga sida</h1>
+      <img src="Mike.jpg" class="bild" />
+    </section>
+    <section id="textcontainer">
+      <div>
+        <h3 class="Rubrik3">Om mig</h3>
+        <p id="Paragraftext">Jag heter Michael och jag är en aktiv och social person. Jag älskar att gymma för att hålla
+          mig i form, resa för att utforska världen, och umgås med mina vänner och familj. Fotboll är också en stor
+          passion. Det är dessa intressen som definierar mig och gör mitt liv fyllt med glädje och spänning. </p>
       </div>
-      <div class="textcontainer">
-        <div>
-          <h3 class="Rubrik3">Om mig</h3>
-          <p id="Paragraftext">Jag heter Michael och jag är en aktiv och social person. Jag älskar att gymma för att hålla mig i form, resa för att utforska världen, och umgås med mina vänner och familj. Fotboll är också en stor passion. Det är dessa intressen som definierar mig och gör mitt liv fyllt med glädje och spänning. </p>
-        </div>
-        <div>
+      <div>
+
         <h3 class="Rubrik3">Mina Intressen</h3>
-      <ul id="Intresselista">
-          <li>gymm</li>
-          <li>resa</li>
-          <li>Fotboll</li>
-        
-        </ul> 
-      </div> 
-    
-                                   
+        <ul id="Intresselista">
+          <li>gymmá 💪🏾</li>
+          <li>resa 🛫</li>
+          <li>Fotboll ⚽</li>
       </div>
-      <div class="formcontainer">
-        <div class="formcontainertext">
-          <h3 class="Rubrik3">Kontakt</h3>
-          <p id="formcontainerp">Tack för att ni besökte min sida, vid fler frågor hör av</p>
-        </div>
-        <form class="form">
-      
-          
-          <label for="Förnamn">Förnamn</label>
-          <input type="text"/>
-          <label for="Efternamn">Efternamn</label>
-          <input type="text"/>
-          <label for="Email">Email</label>
-          <input type="email"/>
-          <label for="message">message</label>
-          <input id="formtext" type="text"/>
-          
-          <button id="formbutton">submit</button>
-        </form>
-      </div>
-    </div>
-    </div>
-  </body>
-</html>
 
+
+      </ul>
+    </section>
+    <section id="formcontainer">
+      <div class="formcontainertext">
+        <h3 class="formContainerHeadline">Kontakt</h3>
+        <p id="formcontainerp">Tack för att ni besökte min sida, vid fler frågor hör av</p>
+      </div>
+      <form class="form">
+
+        <label for="Förnamn">Förnamn</label>
+        <input type="text" />
+        <label for="Efternamn">Efternamn</label>
+        <input type="text" />
+        <label for="Email">Email</label>
+        <input type="email" />
+        <label for="message">message</label>
+        <input id="formtext" type="text" />
+
+        <button id="formbutton">submit</button>
+      </form>
+    </section>
+
+
+
+  </div>
+
+</body>
+
+</html>
